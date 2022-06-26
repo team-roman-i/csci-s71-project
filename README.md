@@ -44,5 +44,17 @@
 - [Create my persona link](https://www.hubspot.com/make-my-persona?persona=-N5VUupgUGBieZ1-E7tz)
 
 ## Product backlog
-
 - <https://github.com/orgs/team-roman-i/projects/1/views/1>
+
+### Prioritazing rule:
+1. items related to authentication
+2. Minimal features that provide coherent value for the stakeholders
+3. less important features
+
+## Definiton of Ready: 
+- Title 
+- User story opening sentence 
+- Additional details 
+- Acceptance criteria 
+- Estimated in story points
+- Dependencies (if applicable)

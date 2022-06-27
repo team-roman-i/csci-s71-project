@@ -16,8 +16,8 @@
 ### Stakeholders
 
 - Pastor and staff: Super users
-- Registered members: Regular users
-- Potential/Casual attenders: guests
+- Registered members: Regular users 
+- Potential/Casual attenders: guests 
 
 #### Real stakeholder
 
@@ -50,6 +50,9 @@
 1. items related to authentication
 2. Minimal features that provide coherent value for the stakeholders
 3. less important features
+
+### Estimating:
+- the whole team used relative-size estimating
 
 ## Definiton of Ready: 
 - Title 

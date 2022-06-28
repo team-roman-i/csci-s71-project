@@ -44,7 +44,7 @@
 - [Create my persona link](https://www.hubspot.com/make-my-persona?persona=-N5VUupgUGBieZ1-E7tz)
 
 ## Product backlog
-- <https://github.com/orgs/team-roman-i/projects/1/views/1>
+- https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1
 
 ### Prioritazing rule:
 1. items related to authentication

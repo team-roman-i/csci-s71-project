@@ -61,3 +61,8 @@
 - Acceptance criteria 
 - Estimated in story points
 - Dependencies (if applicable)
+
+## Definiton of Done: 
+- All the acceptance criterias are met
+- Product Owner has reviewed and accepted the work
+- The code has been commited to the git repo

@@ -100,24 +100,24 @@
     #### Burndown chart
     - <img width="303" alt="image" src="https://user-images.githubusercontent.com/100321208/176598493-613f99c4-d09c-4647-b389-3e85230c09e2.png">
   
-  #### Day June 30, 2022
-    ##### Tasks done in past 24 hours
+  ### Day June 30, 2022
+    #### Tasks done in past 24 hours
     - Ioannis Kapolos 
     - Ioannis Kapolos 
     - Jonh Wendell 
     - Andras Ferenczy 
     - Kathryn Zhu 
-    ##### Tasks going to do in next 24 hours
+    #### Tasks going to do in next 24 hours
     - Ioannis Kapolos 
     - Jonh Wendell 
     - Jonh Wendell 
     - Andras Ferenczy 
     - Kathryn Zhu 
-    ##### Impediment
+    #### Impediment
     - Not able to finish the basic infrastructure
     - It involve the skillset that have not been acquired, incluing backend webAPI
     - Learn the skillset first online, gain knowledge from expert, to acquired the skill required
-    ##### Burndown chart
+    #### Burndown chart
     - <img width="303" alt="image" src="https://user-images.githubusercontent.com/100321208/176598493-613f99c4-d09c-4647-b389-3e85230c09e2.png">
   
   

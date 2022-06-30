@@ -125,9 +125,9 @@
     - <img width="1512" alt="Screen Shot 2022-06-30 at 12 38 01 PM" src="https://user-images.githubusercontent.com/100321208/176731596-1d65b69f-17c6-485a-a845-de961865e8e8.png">
 
   #### Test
-    - 
-      
-      
+    - 6 out of 6 test passed
+    - tests uploaded to repo
+    - ![image](https://user-images.githubusercontent.com/43908750/176750217-8ee58480-5747-479f-a34e-458c0d7e871e.png)      
       
   ### Sprint Review
     - Building a working software of RSVP for church, by doing a web development
@@ -135,7 +135,7 @@
   #### Stakeholder meeting
     - ![image](https://user-images.githubusercontent.com/100321208/176732516-1aa43059-802d-4e86-a8ba-6ca7fe694899.png)
     - ![image (1)](https://user-images.githubusercontent.com/100321208/176732539-2b5adf67-6b23-4d6c-b738-66de7eacc220.png)
-    - 
+    - Feedback of the stackholder: because we only set up the basics for having a webapplication, he wants to see more seeable progress at the next meeting. That means we had to prioratize frontend development and change the order of the product backlog.
     
   ### Sprint Retrospective
   - https://faharvard.atlassian.net/browse/TRI-32

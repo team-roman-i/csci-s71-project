@@ -4,14 +4,35 @@
     "dev": "umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "test": "jest"
   },
   "dependencies": {
+    "antd": "^4.21.5",
     "umi": "^4.0.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^27",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "typescript": "^4.1.2"
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "jest-transform-stub": "^2.0.0",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10",
+    "typescript": "^4"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)?$": "ts-jest",
+      "^.+\\.(js|jsx)$": "babel-jest",
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+    }
   }
 }

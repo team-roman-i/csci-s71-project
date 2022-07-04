@@ -1,0 +1,34 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.less';
+
+html {
+  height: 100vh;
+  background: url('assets/white_wall_hash.png')
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+#root {
+  min-height: 100%;
+  height: 100%;
+
+  & > .ant-layout {
+    flex-direction: row;
+    height: 100%;
+
+    & > header {
+      height: 100%;
+    }
+  }
+}

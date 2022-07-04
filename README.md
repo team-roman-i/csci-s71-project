@@ -165,6 +165,8 @@
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
   
+  ### Day July 3, 2022 - no daily scrum
+  
   ### Day July 4, 2022
     #### Tasks done in past 24 hours
     - Ioannis Kapolos 
@@ -191,9 +193,8 @@
     - ![image](https://user-images.githubusercontent.com/43908750/177180664-e545bb44-3696-447d-a9a4-edd9aa61f7b9.png)
 
   #### Continuous integration
-![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)
-![ci2](https://user-images.githubusercontent.com/125759/177172243-c585676d-d750-4123-8be9-59818c415c3c.png)
-
+- ![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)
+- ![ci2](https://user-images.githubusercontent.com/125759/177172243-c585676d-d750-4123-8be9-59818c415c3c.png)
 
 
   ### Sprint Review

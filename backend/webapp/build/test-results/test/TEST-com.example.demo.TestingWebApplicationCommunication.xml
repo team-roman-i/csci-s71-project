@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.TestingWebApplicationCommunication" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-01T15:49:54" hostname="ANDRIS-LAPTOP" time="0.607">
+  <properties/>
+  <testcase name="greetingShouldReturnCorrectId()" classname="com.example.demo.TestingWebApplicationCommunication" time="0.557"/>
+  <testcase name="greetingWithNameShouldReturnMessageWithName()" classname="com.example.demo.TestingWebApplicationCommunication" time="0.013"/>
+  <testcase name="greetingShouldReturnId()" classname="com.example.demo.TestingWebApplicationCommunication" time="0.015"/>
+  <testcase name="greetingShouldReturnDefaultMessage()" classname="com.example.demo.TestingWebApplicationCommunication" time="0.011"/>
+  <system-out><![CDATA[2022-07-01 17:49:36.119  INFO 13448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.TestingWebApplicationCommunication], using SpringBootContextLoader
+2022-07-01 17:49:36.121  INFO 13448 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.TestingWebApplicationCommunication]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-07-01 17:49:36.121  INFO 13448 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.TestingWebApplicationCommunication]: TestingWebApplicationCommunication does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-07-01 17:49:36.127  INFO 13448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.Application for test class com.example.demo.TestingWebApplicationCommunication
+2022-07-01 17:49:36.130  INFO 13448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-07-01 17:49:36.131  INFO 13448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6fa2d0b2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49c37918, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@43de88f3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@347c5721, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4d22265c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f7b8d59, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28551755, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7ec68821, org.springframework.test.context.event.EventPublishingTestExecutionListener@220a5163, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6158113e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@61375dff, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2bfa5678, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5b8b9b2d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7a7bb083, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2178d296]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2022-07-01 17:49:36.213  INFO 13448 --- [    Test worker] c.e.d.TestingWebApplicationCommunication : Starting TestingWebApplicationCommunication using Java 17.0.1 on Andris-Laptop with PID 13448 (started by feren in C:\Users\feren\Programming projects\Harvard Summer Course\webapp)
+2022-07-01 17:49:36.213  INFO 13448 --- [    Test worker] c.e.d.TestingWebApplicationCommunication : No active profile set, falling back to 1 default profile: "default"
+2022-07-01 17:49:36.620  INFO 13448 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01 17:49:36.643  INFO 13448 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2022-07-01 17:49:37.330  INFO 13448 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-07-01 17:49:37.352  INFO 13448 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-01 17:49:37.353  INFO 13448 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-01 17:49:37.890  INFO 13448 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-01 17:49:37.892  INFO 13448 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1672 ms
+2022-07-01 17:49:38.570  INFO 13448 --- [    Test worker] c.v.f.s.VaadinServletContextInitializer  : Search for VaadinAppShell took 111 ms
+2022-07-01 17:49:51.851  INFO 13448 --- [    Test worker] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 13067 ms
+2022-07-01 17:49:51.853  INFO 13448 --- [    Test worker] c.v.f.s.VaadinServletContextInitializer  : Due to slow search it is recommended to use the whitelisted-packages feature to make scanning faster.
+
+See the whitelisted-packages section in the docs at https://vaadin.com/docs/latest/flow/integrations/spring/configuration#special-configuration-parameters
+2022-07-01 17:49:52.144  INFO 13448 --- [    Test worker] c.v.b.d.startup.DevModeStartupListener   : Starting dev-mode updaters in C:\Users\feren\Programming projects\Harvard Summer Course\webapp folder.
+2022-07-01 17:49:52.383  INFO 13448 --- [    Test worker] c.v.f.s.f.s.FullDependenciesScanner      : Visited 101 classes. Took 133 ms.
+?[94mVaadin application has been deployed and started to the context path "/".
+?[0m2022-07-01 17:49:52.565  INFO 13448 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-07-01 17:49:52.569  INFO 13448 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-07-01 17:49:52.596  INFO 13448 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-01 17:49:52.607  INFO 13448 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-01 17:49:52.631  INFO 13448 --- [onPool-worker-1] c.v.f.s.frontend.TaskUpdatePackages      : Skipping `npm install` because the frontend packages are already installed in the folder 'C:\Users\feren\Programming projects\Harvard Summer Course\webapp\node_modules' and the hash in the file 'C:\Users\feren\Programming projects\Harvard Summer Course\webapp\node_modules\.vaadin\vaadin.json' is the same as in 'package.json'
+2022-07-01 17:49:52.631  INFO 13448 --- [onPool-worker-1] c.v.f.s.frontend.TaskCopyFrontendFiles   : Copying frontend resources from jar files ...
+2022-07-01 17:49:52.673  INFO 13448 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-01 17:49:52.674  INFO 13448 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 17:49:52.702  INFO 13448 --- [onPool-worker-1] c.v.f.s.frontend.TaskCopyFrontendFiles   : Visited 19 resources. Took 70 ms.
+2022-07-01 17:49:52.847  WARN 13448 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-01 17:49:52.870  INFO 13448 --- [onPool-worker-1] c.v.b.devserver.AbstractDevServerRunner  : Starting Webpack
+2022-07-01 17:49:54.063  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2022-07-01 17:49:54.063  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2022-07-01 17:49:54.124  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2022-07-01 17:49:54.141  INFO 13448 --- [    Test worker] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2022-07-01 17:49:54.147  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2022-07-01 17:49:54.170  INFO 13448 --- [    Test worker] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2022-07-01 17:49:54.205  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2022-07-01 17:49:54.206  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2022-07-01 17:49:54.206  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2022-07-01 17:49:54.207  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2022-07-01 17:49:54.209  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2022-07-01 17:49:54.209  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2022-07-01 17:49:54.210  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2022-07-01 17:49:54.211  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2022-07-01 17:49:54.216  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2022-07-01 17:49:54.216  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2022-07-01 17:49:54.216  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2022-07-01 17:49:54.217  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2022-07-01 17:49:54.218  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2022-07-01 17:49:54.218  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2022-07-01 17:49:54.229  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.230  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.231  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.231  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.232  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.232  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.232  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.232  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2022-07-01 17:49:54.232  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2022-07-01 17:49:54.233  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2022-07-01 17:49:54.233  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2022-07-01 17:49:54.234  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2022-07-01 17:49:54.235  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2022-07-01 17:49:54.242  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2022-07-01 17:49:54.243  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2022-07-01 17:49:54.243  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+2022-07-01 17:49:54.243  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0 and jsr356/WebSocket API
+2022-07-01 17:49:54.243  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.7.3.slf4jvaadin4 started.
+2022-07-01 17:49:54.257  INFO 13448 --- [    Test worker] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2022-07-01 17:49:54.325  INFO 13448 --- [    Test worker] c.v.f.s.DefaultDeploymentConfiguration   : 
+Vaadin is running in DEVELOPMENT mode - do not use for production deployments.
+2022-07-01 17:49:54.436  INFO 13448 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 63120 (http) with context path ''
+2022-07-01 17:49:54.444  INFO 13448 --- [    Test worker] c.e.d.TestingWebApplicationCommunication : Started TestingWebApplicationCommunication in 18.308 seconds (JVM running for 33.014)
+2022-07-01 17:49:54.755  INFO 13448 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-01 17:49:54.755  INFO 13448 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-01 17:49:54.758  INFO 13448 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

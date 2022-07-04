@@ -202,7 +202,7 @@
     - ![image](https://user-images.githubusercontent.com/43908750/177170977-a14e1f74-e528-4ed4-adba-8a6d255e0834.png)
     - The product is now a proper webpage with events on it which is an increment compared to the last sprint.
     - ![image](https://user-images.githubusercontent.com/43908750/177182677-a164c0e5-9392-4d96-9fa3-35bbfcc051ce.png)
-    - 
+    - We were unable to complete two tasks belonging to one of the user stories (https://faharvard.atlassian.net/browse/TRI-34). The user story was put in the backlog to be considered for the next sprint. 
   #### Stakeholder meeting
     - Because of the holidays, the stakeholder was not able to participate at the sprint review.
     

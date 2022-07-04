@@ -164,6 +164,7 @@
     - ![image](https://user-images.githubusercontent.com/43908750/177178808-06b68eff-5f25-4042-9b0c-14da4858e277.png)
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+    - (since the sprint ended, the active board will not show it. Here is a screenshot of the board at the end of the sprint: ![image](https://user-images.githubusercontent.com/43908750/177184424-bde6d03e-6ef3-4b79-a87e-aad9b15abf0e.png))
   
   ### Day July 3, 2022 - no daily scrum
   
@@ -182,6 +183,7 @@
     - ![image](https://user-images.githubusercontent.com/43908750/177180182-46a1d038-b25a-4668-9cd0-91beae00c213.png)
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+    - (since the sprint ended, the active board will not show it. Here is a screenshot of the board at the end of the sprint: ![image](https://user-images.githubusercontent.com/43908750/177184424-bde6d03e-6ef3-4b79-a87e-aad9b15abf0e.png))
    
   ### Paired or mobbed
     - Since Andreas and Kathryn are working together on the backend, they did pair programming.

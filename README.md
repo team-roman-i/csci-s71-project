@@ -195,13 +195,15 @@
     - tests uploaded to repo
     - ![image](https://user-images.githubusercontent.com/43908750/176750217-8ee58480-5747-479f-a34e-458c0d7e871e.png)      
       
+
   ### Sprint Review
     - Building a working software of RSVP for church, by doing a web development
     - https://project-synaxis-summer-2022.netlify.app
+    - ![image](https://user-images.githubusercontent.com/43908750/177170977-a14e1f74-e528-4ed4-adba-8a6d255e0834.png)
+    - The product is now a proper webpage with events on it which is an increment compared to the last sprint.
+    
   #### Stakeholder meeting
-    - ![image](https://user-images.githubusercontent.com/100321208/176732516-1aa43059-802d-4e86-a8ba-6ca7fe694899.png)
-    - ![image (1)](https://user-images.githubusercontent.com/100321208/176732539-2b5adf67-6b23-4d6c-b738-66de7eacc220.png)
-    - Feedback of the stackholder: because we only set up the basics for having a webapplication, he wants to see more seeable progress at the next meeting. That means we had to prioratize frontend development and change the order of the product backlog.
+    - Because of the holidays, the stakeholder was not able to participate at the sprint review.
     
   ### Sprint Retrospective
   - https://faharvard.atlassian.net/browse/TRI-32

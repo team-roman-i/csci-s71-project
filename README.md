@@ -156,12 +156,12 @@
   ### Day July 2, 2022
     #### Tasks done in past 24 hours:
     - Ioannis Kapolos 
-    - Jonh Wendell 
+    - Jonh Wendell: Studying about Github Actions (CI/CD)
     - Andras Ferenczy 
     - Kathryn Zhu nothing work done
     #### Tasks going to do in next 24 hours:
     - Ioannis Kapolos
-    - Jonh Wendell
+    - Jonh Wendell: Implement Github Actions
     - Andras Ferenczy
     - Kathryn Zhu read the webAPI files
     #### Impediment
@@ -175,7 +175,7 @@
   ### Day July 4, 2022
     #### Tasks done in past 24 hours
     - Ioannis Kapolos 
-    - Jonh Wendell 
+    - Jonh Wendell: Implemented CI system (Run build & tests before merging code)
     - Andras Ferenczy
     - Kathryn Zhu finish update the backend file with event file
     #### Tasks going to do in next 24 hours

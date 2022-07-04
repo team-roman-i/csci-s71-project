@@ -147,7 +147,7 @@
   - Reason: For the second sprint, we are planning to keep adding features to the website, in specifically, aiming to having proper welcome page and at least one feature of the website, and display event on the website. It more focus on front end of the development, and some part of back end. In total, the forecast is 36 story points.
 - Developers, Jonh Santana, Ioannis Kopolos, Kathryn Zhu, Andras Ferenczy participant in devide the Sprint Backlogs from the Product Backlog via a video    meeting.
 - Kanban board URL: https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1
-- Burndown Chart: <img width="361" alt="image" src="https://user-images.githubusercontent.com/100321208/177084374-401795ef-e4d8-4a05-a1fc-374f3e4a76bb.png">
+- Burndown Chart: ![image](https://user-images.githubusercontent.com/43908750/177166081-14f7f86e-2ca3-474c-be6e-9c27de086da7.png)
 
 
 
@@ -172,7 +172,7 @@
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
   
-  ### Day July 3, 2022
+  ### Day July 4, 2022
     #### Tasks done in past 24 hours
     - Ioannis Kapolos 
     - Jonh Wendell 

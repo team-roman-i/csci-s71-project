@@ -158,12 +158,12 @@
     - Ioannis Kapolos 
     - Jonh Wendell 
     - Andras Ferenczy 
-    - Kathryn Zhu 
+    - Kathryn Zhu nothing work done
     #### Tasks going to do in next 24 hours:
     - Ioannis Kapolos
     - Jonh Wendell
     - Andras Ferenczy
-    - Kathryn Zhu
+    - Kathryn Zhu read the webAPI files
     #### Impediment
     - 
     - 
@@ -177,11 +177,12 @@
     - Ioannis Kapolos 
     - Jonh Wendell 
     - Andras Ferenczy
-    - Kathryn Zhu 
+    - Kathryn Zhu finish update the backend file with event file
     #### Tasks going to do in next 24 hours
     - plan for the next sprint
     #### Impediment
     - Not able to commit the code to git repository
+    - It is holiday
     #### Burndown chart
     - <img width="302" alt="image" src="https://user-images.githubusercontent.com/100321208/176730931-4613565f-b6fc-4701-8ec9-56b0199cf835.png">
     #### Sprint task board

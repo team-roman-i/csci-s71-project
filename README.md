@@ -186,9 +186,9 @@
     - ![Képernyőkép 2022-07-04 163114](https://user-images.githubusercontent.com/43908750/177179603-c8c47afd-7816-4645-868e-13c91f47b940.png)
 
   #### Test
-    - 6 out of 6 test passed
+    - 5 out of 5 the new tests conserning the frontend part passed
     - tests uploaded to repo
-    - ![image](https://user-images.githubusercontent.com/43908750/176750217-8ee58480-5747-479f-a34e-458c0d7e871e.png)      
+    - ![image](https://user-images.githubusercontent.com/43908750/177180468-cb7cb3ef-c355-4ebb-9456-b4439630ca7e.png)
 
   #### Continuous integration
 ![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)

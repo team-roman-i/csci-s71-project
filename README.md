@@ -27,21 +27,15 @@
 
 - Name: Roberto Laranjo
 - Job title: Pastor
-- Age: 55 to 64
-- Education: Bachelors degree
-- Social networks: Facebook
-- Industry: Church
-- Organization size: 51-200
-- Preferred method of communication: Text messaging
-- Tools they need to do their job: E-mail
+- Age: 60
+- Education: Bachelors degree in Theology
+- Industry: Church/Religious
+- Organization size: 100
 - Job responsibilities: Lead the church, care of people, preach the gospel
-- Reports to: The church
-- Goals or objectives: Better organizing church events
-- Biggest challenges:
-  - Communication
-  - Project management & disorganization
-  - Navigating client relationships & communication
-- [Create my persona link](https://www.hubspot.com/make-my-persona?persona=-N5VUupgUGBieZ1-E7tz)
+- Reports to: The church board
+- Main problem: He doesn't know how many people are going to attend an event. An event might be a service, a camp, a study bible group, etc.
+- Goals or objectives: Better organizing church events. He wants to be able to invite people to events he or his team creates.
+
 
 ## Product backlog
 - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1

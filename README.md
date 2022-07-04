@@ -177,7 +177,7 @@
     - Not able to commit the code to git repository
     - It is holiday
     #### Burndown chart
-    - <img width="302" alt="image" src="https://user-images.githubusercontent.com/100321208/176730931-4613565f-b6fc-4701-8ec9-56b0199cf835.png">
+    - ![image](https://user-images.githubusercontent.com/43908750/177180182-46a1d038-b25a-4668-9cd0-91beae00c213.png)
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
    

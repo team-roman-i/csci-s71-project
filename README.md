@@ -162,7 +162,7 @@
     - 
     - 
     #### Burndown chart
-    - <img width="302" alt="image" src="https://user-images.githubusercontent.com/100321208/176730896-29223cb6-0cc6-44f3-abb3-862bb60a80eb.png">
+    - ![image](https://user-images.githubusercontent.com/43908750/177178808-06b68eff-5f25-4042-9b0c-14da4858e277.png)
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
   
@@ -180,7 +180,7 @@
     #### Burndown chart
     - <img width="302" alt="image" src="https://user-images.githubusercontent.com/100321208/176730931-4613565f-b6fc-4701-8ec9-56b0199cf835.png">
     #### Sprint task board
-    - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+    - ![image](https://user-images.githubusercontent.com/43908750/177178884-aefa9f05-523c-435e-a372-0ce0d9c5a0ce.png)
   
   #### Paired or mobbed
     - 

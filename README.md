@@ -139,3 +139,69 @@
     
   ### Sprint Retrospective
   - https://faharvard.atlassian.net/browse/TRI-32
+
+# Second Sprint
+
+## Sprint planning
+- Forecast: 36 story points for the second print
+  - Reason: For the second sprint, we are planning to keep adding features to the website, in specifically, aiming to having proper welcome page and at least one feature of the website, and display event on the website. It more focus on front end of the development, and some part of back end. In total, the forecast is 36 story points.
+- Developers, Jonh Santana, Ioannis Kopolos, Kathryn Zhu, Andras Ferenczy participant in devide the Sprint Backlogs from the Product Backlog via a video    meeting.
+- Kanban board URL: https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1
+- Burndown Chart: <img width="361" alt="image" src="https://user-images.githubusercontent.com/100321208/177084374-401795ef-e4d8-4a05-a1fc-374f3e4a76bb.png">
+
+
+
+  ## Daily Scrum
+  
+  ### Day July 2, 2022
+    #### Tasks done in past 24 hours:
+    - Ioannis Kapolos 
+    - Jonh Wendell 
+    - Andras Ferenczy 
+    - Kathryn Zhu 
+    #### Tasks going to do in next 24 hours:
+    - Ioannis Kapolos
+    - Jonh Wendell
+    - Andras Ferenczy
+    - Kathryn Zhu
+    #### Impediment
+    - 
+    - 
+    #### Burndown chart
+    - <img width="302" alt="image" src="https://user-images.githubusercontent.com/100321208/176730896-29223cb6-0cc6-44f3-abb3-862bb60a80eb.png">
+    #### Sprint task board
+    - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+  
+  ### Day July 3, 2022
+    #### Tasks done in past 24 hours
+    - Ioannis Kapolos 
+    - Jonh Wendell 
+    - Andras Ferenczy
+    - Kathryn Zhu 
+    #### Tasks going to do in next 24 hours
+    - plan for the next sprint
+    #### Impediment
+    - Not able to commit the code to git repository
+    #### Burndown chart
+    - <img width="302" alt="image" src="https://user-images.githubusercontent.com/100321208/176730931-4613565f-b6fc-4701-8ec9-56b0199cf835.png">
+    #### Sprint task board
+    - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+  
+  #### Paired or mobbed
+    - 
+
+  #### Test
+    - 6 out of 6 test passed
+    - tests uploaded to repo
+    - ![image](https://user-images.githubusercontent.com/43908750/176750217-8ee58480-5747-479f-a34e-458c0d7e871e.png)      
+      
+  ### Sprint Review
+    - Building a working software of RSVP for church, by doing a web development
+    - https://project-synaxis-summer-2022.netlify.app
+  #### Stakeholder meeting
+    - ![image](https://user-images.githubusercontent.com/100321208/176732516-1aa43059-802d-4e86-a8ba-6ca7fe694899.png)
+    - ![image (1)](https://user-images.githubusercontent.com/100321208/176732539-2b5adf67-6b23-4d6c-b738-66de7eacc220.png)
+    - Feedback of the stackholder: because we only set up the basics for having a webapplication, he wants to see more seeable progress at the next meeting. That means we had to prioratize frontend development and change the order of the product backlog.
+    
+  ### Sprint Retrospective
+  - https://faharvard.atlassian.net/browse/TRI-32

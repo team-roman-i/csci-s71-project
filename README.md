@@ -194,7 +194,12 @@
     - 6 out of 6 test passed
     - tests uploaded to repo
     - ![image](https://user-images.githubusercontent.com/43908750/176750217-8ee58480-5747-479f-a34e-458c0d7e871e.png)      
-      
+
+  #### Continuous integration
+![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)
+![ci2](https://user-images.githubusercontent.com/125759/177172243-c585676d-d750-4123-8be9-59818c415c3c.png)
+
+
 
   ### Sprint Review
     - Building a working software of RSVP for church, by doing a web development

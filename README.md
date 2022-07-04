@@ -149,12 +149,12 @@
   
   ### Day July 2, 2022
     #### Tasks done in past 24 hours:
-    - Ioannis Kapolos 
+    - Ioannis Kapolos: None
     - Jonh Wendell: Studying about Github Actions (CI/CD)
     - Andras Ferenczy: Studying about remotely handling a springboot server.
     - Kathryn Zhu nothing work done
     #### Tasks going to do in next 24 hours:
-    - Ioannis Kapolos
+    - Ioannis Kapolos: Implement the display of events story
     - Jonh Wendell: Implement Github Actions
     - Andras Ferenczy: Move the backend code to the host machine
     - Kathryn Zhu read the webAPI files
@@ -170,7 +170,7 @@
   
   ### Day July 4, 2022
     #### Tasks done in past 24 hours
-    - Ioannis Kapolos 
+    - Ioannis Kapolos: Implemented the display events initial page
     - Jonh Wendell: Implemented CI system (Run build & tests before merging code)
     - Andras Ferenczy: Successfuly moved the backend code to the host machine. The backend can not run yet.
     - Kathryn Zhu finish update the backend file with event file

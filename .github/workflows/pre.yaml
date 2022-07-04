@@ -1,7 +1,7 @@
 name: presubmit tests
 on: [pull_request]
 jobs:
-  check-bats-version:
+  test-frontend:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -10,4 +10,4 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-
+      - run: make test-frontend

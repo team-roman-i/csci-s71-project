@@ -159,8 +159,7 @@
     - Andras Ferenczy: Move the backend code to the host machine
     - Kathryn Zhu read the webAPI files
     #### Impediment
-    - 
-    - 
+    - none
     #### Burndown chart
     - ![image](https://user-images.githubusercontent.com/43908750/177178808-06b68eff-5f25-4042-9b0c-14da4858e277.png)
     #### Sprint task board
@@ -183,7 +182,8 @@
     - ![image](https://user-images.githubusercontent.com/43908750/177178884-aefa9f05-523c-435e-a372-0ce0d9c5a0ce.png)
   
   #### Paired or mobbed
-    - 
+    - Since Andreas and Kathryn are working together on the backend, they did pair programming.
+    - ![Képernyőkép 2022-07-04 163114](https://user-images.githubusercontent.com/43908750/177179603-c8c47afd-7816-4645-868e-13c91f47b940.png)
 
   #### Test
     - 6 out of 6 test passed

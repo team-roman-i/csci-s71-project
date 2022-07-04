@@ -183,28 +183,28 @@
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
    
-  #### Paired or mobbed
+  ### Paired or mobbed
     - Since Andreas and Kathryn are working together on the backend, they did pair programming.
     - ![Képernyőkép 2022-07-04 163114](https://user-images.githubusercontent.com/43908750/177179603-c8c47afd-7816-4645-868e-13c91f47b940.png)
 
-  #### Test
+  ### Test
     - 5 out of 5 the new tests conserning the frontend part passed
     - tests uploaded to repo
     - ![image](https://user-images.githubusercontent.com/43908750/177180664-e545bb44-3696-447d-a9a4-edd9aa61f7b9.png)
 
-  #### Continuous integration
-- ![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)
-- ![ci2](https://user-images.githubusercontent.com/125759/177172243-c585676d-d750-4123-8be9-59818c415c3c.png)
-
+  ### Continuous integration
+    - ![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)
+    - ![ci2](https://user-images.githubusercontent.com/125759/177172243-c585676d-d750-4123-8be9-59818c415c3c.png)
 
   ### Sprint Review
     - Building a working software of RSVP for church, by doing a web development
     - https://project-synaxis-summer-2022.netlify.app
     - ![image](https://user-images.githubusercontent.com/43908750/177170977-a14e1f74-e528-4ed4-adba-8a6d255e0834.png)
     - The product is now a proper webpage with events on it which is an increment compared to the last sprint.
-    
+    - ![image](https://user-images.githubusercontent.com/43908750/177182677-a164c0e5-9392-4d96-9fa3-35bbfcc051ce.png)
+    - 
   #### Stakeholder meeting
     - Because of the holidays, the stakeholder was not able to participate at the sprint review.
     
   ### Sprint Retrospective
-  - https://faharvard.atlassian.net/browse/TRI-32
+  - https://faharvard.atlassian.net/browse/TRI-49?atlOrigin=eyJpIjoiNjIzMjc1YTRjMmFkNGUwZDllNjEwNjQ5ZGMwYmQ2YmMiLCJwIjoiaiJ9

@@ -151,12 +151,12 @@
     #### Tasks done in past 24 hours:
     - Ioannis Kapolos 
     - Jonh Wendell: Studying about Github Actions (CI/CD)
-    - Andras Ferenczy 
+    - Andras Ferenczy: Studying about remotely handling a springboot server.
     - Kathryn Zhu nothing work done
     #### Tasks going to do in next 24 hours:
     - Ioannis Kapolos
     - Jonh Wendell: Implement Github Actions
-    - Andras Ferenczy
+    - Andras Ferenczy: Move the backend code to the host machine
     - Kathryn Zhu read the webAPI files
     #### Impediment
     - 
@@ -170,7 +170,7 @@
     #### Tasks done in past 24 hours
     - Ioannis Kapolos 
     - Jonh Wendell: Implemented CI system (Run build & tests before merging code)
-    - Andras Ferenczy
+    - Andras Ferenczy: Successfuly moved the backend code to the host machine. The backend can not run yet.
     - Kathryn Zhu finish update the backend file with event file
     #### Tasks going to do in next 24 hours
     - plan for the next sprint

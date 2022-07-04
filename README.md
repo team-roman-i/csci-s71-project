@@ -179,8 +179,8 @@
     #### Burndown chart
     - <img width="302" alt="image" src="https://user-images.githubusercontent.com/100321208/176730931-4613565f-b6fc-4701-8ec9-56b0199cf835.png">
     #### Sprint task board
-    - ![image](https://user-images.githubusercontent.com/43908750/177178884-aefa9f05-523c-435e-a372-0ce0d9c5a0ce.png)
-  
+    - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+   
   #### Paired or mobbed
     - Since Andreas and Kathryn are working together on the backend, they did pair programming.
     - ![Képernyőkép 2022-07-04 163114](https://user-images.githubusercontent.com/43908750/177179603-c8c47afd-7816-4645-868e-13c91f47b940.png)

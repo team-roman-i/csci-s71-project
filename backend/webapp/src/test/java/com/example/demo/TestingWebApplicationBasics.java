@@ -15,7 +15,7 @@ public class TestingWebApplicationBasics {
 	}
 
 	@Autowired
-	private GreetingController controller;
+	private EventController controller;
 
 	@Test
 	public void When_application_started_Then_controller_loads() throws Exception {

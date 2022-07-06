@@ -27,21 +27,15 @@
 
 - Name: Roberto Laranjo
 - Job title: Pastor
-- Age: 55 to 64
-- Education: Bachelors degree
-- Social networks: Facebook
-- Industry: Church
-- Organization size: 51-200
-- Preferred method of communication: Text messaging
-- Tools they need to do their job: E-mail
+- Age: 60
+- Education: Bachelors degree in Theology
+- Industry: Church/Religious
+- Organization size: 100
 - Job responsibilities: Lead the church, care of people, preach the gospel
-- Reports to: The church
-- Goals or objectives: Better organizing church events
-- Biggest challenges:
-  - Communication
-  - Project management & disorganization
-  - Navigating client relationships & communication
-- [Create my persona link](https://www.hubspot.com/make-my-persona?persona=-N5VUupgUGBieZ1-E7tz)
+- Reports to: The church board
+- Main problem: He doesn't know how many people are going to attend an event. An event might be a service, a camp, a study bible group, etc.
+- Goals or objectives: Better organizing church events. He wants to be able to invite people to events he or his team creates.
+
 
 ## Product backlog
 - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1
@@ -139,3 +133,80 @@
     
   ### Sprint Retrospective
   - https://faharvard.atlassian.net/browse/TRI-32
+
+# Second Sprint
+
+## Sprint planning
+- Forecast: 36 story points for the second print
+  - Reason: For the second sprint, we are planning to keep adding features to the website, in specifically, aiming to having proper welcome page and at least one feature of the website, and display event on the website. It more focus on front end of the development, and some part of back end. In total, the forecast is 36 story points.
+- Developers, Jonh Santana, Ioannis Kopolos, Kathryn Zhu, Andras Ferenczy participant in devide the Sprint Backlogs from the Product Backlog via a video    meeting.
+- Kanban board URL: https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1
+- Burndown Chart: ![image](https://user-images.githubusercontent.com/43908750/177166081-14f7f86e-2ca3-474c-be6e-9c27de086da7.png)
+
+
+
+  ## Daily Scrum
+  
+  ### Day July 2, 2022
+    #### Tasks done in past 24 hours:
+    - Ioannis Kapolos: None
+    - Jonh Wendell: Studying about Github Actions (CI/CD)
+    - Andras Ferenczy: Studying about remotely handling a springboot server.
+    - Kathryn Zhu nothing work done
+    #### Tasks going to do in next 24 hours:
+    - Ioannis Kapolos: Implement the display of events story
+    - Jonh Wendell: Implement Github Actions
+    - Andras Ferenczy: Move the backend code to the host machine
+    - Kathryn Zhu read the webAPI files
+    #### Impediment
+    - none
+    #### Burndown chart
+    - ![image](https://user-images.githubusercontent.com/43908750/177178808-06b68eff-5f25-4042-9b0c-14da4858e277.png)
+    #### Sprint task board
+    - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+    - (since the sprint ended, the active board will not show it. Here is a screenshot of the board at the end of the sprint: ![image](https://user-images.githubusercontent.com/43908750/177184424-bde6d03e-6ef3-4b79-a87e-aad9b15abf0e.png))
+  
+  ### Day July 3, 2022 - no daily scrum
+  
+  ### Day July 4, 2022
+    #### Tasks done in past 24 hours
+    - Ioannis Kapolos: Implemented the display events initial page
+    - Jonh Wendell: Implemented CI system (Run build & tests before merging code)
+    - Andras Ferenczy: Successfuly moved the backend code to the host machine. The backend can not run yet.
+    - Kathryn Zhu finish update the backend file with event file
+    #### Tasks going to do in next 24 hours
+    - plan for the next sprint
+    #### Impediment
+    - Not able to commit the code to git repository
+    - It is holiday
+    #### Burndown chart
+    - ![image](https://user-images.githubusercontent.com/43908750/177180182-46a1d038-b25a-4668-9cd0-91beae00c213.png)
+    #### Sprint task board
+    - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
+    - (since the sprint ended, the active board will not show it. Here is a screenshot of the board at the end of the sprint: ![image](https://user-images.githubusercontent.com/43908750/177184424-bde6d03e-6ef3-4b79-a87e-aad9b15abf0e.png))
+   
+  ### Paired or mobbed
+    - Since Andreas and Kathryn are working together on the backend, they did pair programming.
+    - ![Képernyőkép 2022-07-04 163114](https://user-images.githubusercontent.com/43908750/177179603-c8c47afd-7816-4645-868e-13c91f47b940.png)
+
+  ### Test
+    - 5 out of 5 the new tests conserning the frontend part passed
+    - tests uploaded to repo
+    - ![image](https://user-images.githubusercontent.com/43908750/177180664-e545bb44-3696-447d-a9a4-edd9aa61f7b9.png)
+
+  ### Continuous integration
+    - ![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)
+    - ![ci2](https://user-images.githubusercontent.com/125759/177172243-c585676d-d750-4123-8be9-59818c415c3c.png)
+
+  ### Sprint Review
+    - Building a working software of RSVP for church, by doing a web development
+    - https://project-synaxis-summer-2022.netlify.app
+    - ![image](https://user-images.githubusercontent.com/43908750/177170977-a14e1f74-e528-4ed4-adba-8a6d255e0834.png)
+    - The product is now a proper webpage with events on it which is an increment compared to the last sprint.
+    - ![image](https://user-images.githubusercontent.com/43908750/177182677-a164c0e5-9392-4d96-9fa3-35bbfcc051ce.png)
+    - We were unable to complete two tasks belonging to one of the user stories (https://faharvard.atlassian.net/browse/TRI-34). The user story was put in the backlog to be considered for the next sprint. 
+  #### Stakeholder meeting
+    - Because of the holidays, the stakeholder was not able to participate at the sprint review.
+    
+  ### Sprint Retrospective
+  - https://faharvard.atlassian.net/browse/TRI-49?atlOrigin=eyJpIjoiNjIzMjc1YTRjMmFkNGUwZDllNjEwNjQ5ZGMwYmQ2YmMiLCJwIjoiaiJ9

@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "antd": "^4.21.5",
-    "umi": "^4.0.2"
+    "umi": "^4.0.2",
+    "use-http": "^1.0.26"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.6",

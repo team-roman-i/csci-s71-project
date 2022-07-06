@@ -1,3 +1,6 @@
 export default {
-  npmClient: 'yarn'
+  npmClient: 'yarn',
+  mock: {
+    include: ['mock/*.js'],
+  },
 };

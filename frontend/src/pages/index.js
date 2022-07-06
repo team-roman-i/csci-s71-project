@@ -1,6 +1,13 @@
+import { Button } from 'antd'
+import { history } from 'umi';
+
 import Events from './_components/events'
 
 export default function HomePage() {
+    const handleAction = () => {
+        history.push('/newEvent')
+    }
+
     return (
         <div data-testid='homepage'>
             <section>
@@ -13,6 +20,10 @@ export default function HomePage() {
 
             <section style={{marginTop: '30px'}}>
                 <Events/>
+
+                <div className="actions">
+                    <Button type="primary" onClick={handleAction}>Add an Event</Button>
+                </div>
             </section>
         </div>
     );

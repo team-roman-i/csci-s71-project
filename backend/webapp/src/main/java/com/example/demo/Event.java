@@ -1,38 +1,51 @@
 package com.example.demo;
 
+import java.time.LocalDate;
+
 public class Event {
 
-    private String eventName;
-    private String discription;
+
+    private int id;
+    private String title;
     private LocalDate time;
+    private String description;
 
-    public Event(String eventName, String discription, LocalDate time) {
-        this.eventName = eventName;
-        this.discription = discription;
+    public Event(int id, String title, LocalDate time, String description) {
+        this.id = id;
+        this.title = title;
         this.time = time;
+        this.description = description;
     }
 
-    public String getEventName() {
-        return eventName;
+    public int getId() {
+        return id;
     }
 
-    public String getDiscription() {
-        return discription;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public LocalDate getTime() {
         return time;
     }
 
-    public void setEventName(String eventName) {
-        this.eventName = eventName;
-    }
-
-    public void setDiscription(String discription) {
-        this.discription = discription;
-    }
-
     public void setTime(LocalDate time) {
         this.time = time;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

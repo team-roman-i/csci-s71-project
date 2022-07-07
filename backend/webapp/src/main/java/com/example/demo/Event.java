@@ -12,13 +12,13 @@ public class Event {
     @GeneratedValue
     private int id;
     private String title;
-    private LocalDate time;
+    private LocalDate date;
     private String description;
 
-    public Event(int id, String title, LocalDate time, String description) {
+    public Event(int id, String title, LocalDate date, String description) {
         this.id = id;
         this.title = title;
-        this.time = time;
+        this.date = date;
         this.description = description;
     }
 
@@ -42,12 +42,12 @@ public class Event {
         this.title = title;
     }
 
-    public LocalDate getTime() {
-        return time;
+    public LocalDate getDate() {
+        return date;
     }
 
-    public void setTime(LocalDate time) {
-        this.time = time;
+    public void setDate(LocalDate time) {
+        this.date = time;
     }
 
     public String getDescription() {

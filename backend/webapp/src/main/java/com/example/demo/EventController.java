@@ -10,22 +10,23 @@ import java.util.concurrent.atomic.AtomicLong;
 public class EventController {
         private static final String template = "Hello, %s!";
         private final AtomicLong counter = new AtomicLong();
-
         @Autowired
         private EventRepository eventRepository;
 
         public EventController(EventRepository eventRepository) {
                 this.eventRepository = eventRepository;
         }
-
         @GetMapping("/hello")
         public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
             return new Greeting(counter.incrementAndGet(), String.format(template, name));
         }
+        @CrossOrigin(origins = "*")
         @GetMapping("/api/events")
         public List<Event> listEvents() {
                 return eventRepository.findAll();
         }
+
+        @CrossOrigin(origins = "*")
         @PostMapping("/api/events")
         public void addEvent(@RequestBody Event newEvent) {
                 eventRepository.save(newEvent);

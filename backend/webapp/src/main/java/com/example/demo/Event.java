@@ -10,12 +10,12 @@ public class Event {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private int id;
     private String title;
     private LocalDate time;
     private String description;
 
-    public Event(Long id, String title, LocalDate time, String description) {
+    public Event(int id, String title, LocalDate time, String description) {
         this.id = id;
         this.title = title;
         this.time = time;
@@ -26,11 +26,11 @@ public class Event {
 
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

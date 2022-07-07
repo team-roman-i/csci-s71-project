@@ -1,5 +1,6 @@
 import {Button, Form, Input, DatePicker} from 'antd';
 import { history } from 'umi';
+import axios from 'axios'
 
 const {TextArea} = Input
 
@@ -20,15 +21,11 @@ export default function CreateEvent() {
         const obj = Object.assign({}, values)
         obj.date = values.date.toISOString()
 
-        fetch('/api/event', {
-            method: 'post',
-            body: JSON.stringify(obj)
-        }).then(function(response) {
-            console.log(response.json());
+        axios.post('http://18.223.133.80:8080/api/event', obj)
+            .then(function(response) {
+            console.log(response);
             history.push('/')
-        }).then(function(data) {
-            console.log(data);
-        });
+        })
     };
 
     const onFinishFailed = (errorInfo) => {

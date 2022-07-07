@@ -1,6 +1,7 @@
 import React from 'react'
 import {Space, Table, Tag} from 'antd';
 import useFetch from 'use-http'
+import useAxios from 'axios-hooks'
 
 const columns = [
     {
@@ -21,8 +22,9 @@ const columns = [
 ]
 
 export default function Events() {
-    const { loading, error, data = [] } = useFetch('/api/events', {}, [])
-
+    const [{ data, loading, error }] = useAxios(
+        'http://18.223.133.80:8080/api/events'
+    )
     if (loading) {
         return <div>Loading...</div>;
     }

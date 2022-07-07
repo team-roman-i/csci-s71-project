@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "antd": "^4.21.5",
+    "axios": "^0.27.2",
+    "axios-hooks": "^3.1.4",
+    "jest-fetch-mock": "^3.0.3",
     "umi": "^4.0.2",
     "use-http": "^1.0.26"
   },

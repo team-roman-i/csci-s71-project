@@ -23,7 +23,8 @@ const columns = [
 
 export default function Events() {
     const [{ data, loading, error }] = useAxios(
-        'http://18.223.133.80:8080/api/events'
+        'http://18.223.133.80:8080/api/events',
+        { useCache: false }
     )
     if (loading) {
         return <div>Loading...</div>;

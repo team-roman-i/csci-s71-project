@@ -21,7 +21,7 @@ export default function CreateEvent() {
         const obj = Object.assign({}, values)
         obj.date = values.date.toISOString()
 
-        axios.post('http://18.223.133.80:8080/api/event', obj)
+        axios.post('http://18.223.133.80:8080/api/events', obj)
             .then(function(response) {
             console.log(response);
             history.push('/')

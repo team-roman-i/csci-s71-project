@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+
 @RestController
+@CrossOrigin(origins = "*")
 public class EventController {
         private static final String template = "Hello, %s!";
         private final AtomicLong counter = new AtomicLong();
@@ -20,13 +22,11 @@ public class EventController {
         public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
             return new Greeting(counter.incrementAndGet(), String.format(template, name));
         }
-        @CrossOrigin(origins = "*")
+
         @GetMapping("/api/events")
         public List<Event> listEvents() {
                 return eventRepository.findAll();
         }
-
-        @CrossOrigin(origins = "*")
         @PostMapping("/api/events")
         public void addEvent(@RequestBody Event newEvent) {
                 eventRepository.save(newEvent);

@@ -230,32 +230,33 @@
     - Ioannis Kapolos: 
     - Jonh Wendell:
     - Andras Ferenczy: 
-    - Kathryn Zhu:
+    - Kathryn Zhu: Study for database connection
     #### Tasks going to do in next 24 hours:
     - Ioannis Kapolos: Front-end UI creation and API integration TRI-53
     - Jonh Wendell: 
     - Andras Ferenczy: 
-    - Kathryn Zhu: Study for database connection
+    - Kathryn Zhu: Finish Handle POST request so that the event gets stored in the database TRI-54
     #### Impediment
     - All of teamates have no idea how to work with database
     #### Burndown chart
-    - ![image](https://user-images.githubusercontent.com/43908750/177178808-06b68eff-5f25-4042-9b0c-14da4858e277.png)
+    - <img width="362" alt="image" src="https://user-images.githubusercontent.com/100321208/177838642-8176ce89-024a-46c7-ac68-e9525575e207.png">
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1
     - (since the sprint ended, the active board will not show it.)
   
   ### Day July 7, 2022
     #### Tasks done in past 24 hours
-    - Ioannis Kapolos: Implemented the display events initial page
-    - Jonh Wendell: Implemented CI system (Run build & tests before merging code)
-    - Andras Ferenczy: Successfuly moved the backend code to the host machine. The backend can not run yet.
-    - Kathryn Zhu finish update the backend file with event file
+    - Ioannis Kapolos: 
+    - Jonh Wendell: 
+    - Andras Ferenczy: 
+    - Kathryn Zhu continue finish Handle POST request so that the event gets stored in the database TRI-54
     #### Tasks going to do in next 24 hours
     - plan for the next sprint
     #### Impediment
     - Not able to fix port problem in database
+    - Course ends
     #### Burndown chart
-    - ![image](https://user-images.githubusercontent.com/43908750/177180182-46a1d038-b25a-4668-9cd0-91beae00c213.png)
+    - <img width="362" alt="image" src="https://user-images.githubusercontent.com/100321208/177838701-0d8cc39b-8f71-4fa8-9917-3f62428aa73b.png">
     #### Sprint task board
     - https://faharvard.atlassian.net/jira/software/projects/TRI/boards/1/backlog
     - (since the sprint ended, the active board will not show it.)
@@ -270,19 +271,13 @@
     - ![image (1)](https://user-images.githubusercontent.com/100321208/177835617-982e920f-d96e-4490-8154-2fea2eb9e3c8.png)
 
   ### Continuous integration
-    - ![ci1](https://user-images.githubusercontent.com/125759/177172189-d3afb9f9-fc7d-4d40-88d2-c9df878a67ec.png)
-    - ![ci2](https://user-images.githubusercontent.com/125759/177172243-c585676d-d750-4123-8be9-59818c415c3c.png)
-
-  ### Sprint Review
-    - Building a working software of RSVP for church, by doing a web development
-    - https://project-synaxis-summer-2022.netlify.app
-    - ![image](https://user-images.githubusercontent.com/43908750/177170977-a14e1f74-e528-4ed4-adba-8a6d255e0834.png)
-    - The product is now a proper webpage with events on it which is an increment compared to the last sprint.
-    - ![image](https://user-images.githubusercontent.com/43908750/177182677-a164c0e5-9392-4d96-9fa3-35bbfcc051ce.png)
-    - We were unable to complete two tasks belonging to one of the user stories (https://faharvard.atlassian.net/browse/TRI-34). The user story was put in the backlog to be considered for the next sprint. 
-  #### Stakeholder meeting
-    - Because of the holidays, the stakeholder was not able to participate at the sprint review.
+    - <img width="1511" alt="Screen Shot 2022-07-07 at 2 17 23 PM" src="https://user-images.githubusercontent.com/100321208/177842307-18f39e86-4a83-40b9-98c4-0754ff963222.png">
+    - <img width="1508" alt="Screen Shot 2022-07-07 at 2 17 12 PM" src="https://user-images.githubusercontent.com/100321208/177842323-c6ef7657-de9b-4b4b-a0ee-627c8ee13d01.png">
     
   ### Sprint Retrospective
-  - https://faharvard.atlassian.net/browse/TRI-49?atlOrigin=eyJpIjoiNjIzMjc1YTRjMmFkNGUwZDllNjEwNjQ5ZGMwYmQ2YmMiLCJwIjoiaiJ9
 
+
+   ### Sprint Review
+  - Building a working software of RSVP for church, by doing a web development
+  - https://project-synaxis-summer-2022.netlify.app
+  - https://docs.google.com/presentation/d/12uI4Tn6WLpoCRZalbFNlFs_LUDJL1JYPvji-c3ibSNc/edit?usp=sharing

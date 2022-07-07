@@ -269,6 +269,7 @@
     - 11 out of 11 the new tests conserning the frontend part passed
     - tests uploaded to repo
     - ![image (1)](https://user-images.githubusercontent.com/100321208/177835617-982e920f-d96e-4490-8154-2fea2eb9e3c8.png)
+    - ![image](https://user-images.githubusercontent.com/100321208/177842698-e466fe02-6cab-493a-bcab-21ebc6c02f6b.png)
 
   ### Continuous integration
     - <img width="1511" alt="Screen Shot 2022-07-07 at 2 17 23 PM" src="https://user-images.githubusercontent.com/100321208/177842307-18f39e86-4a83-40b9-98c4-0754ff963222.png">

@@ -227,7 +227,7 @@
   
   ### Day July 6, 2022
     #### Tasks done in past 24 hours:
-    - Ioannis Kapolos: 
+    - Ioannis Kapolos: Created the integration of the event list with the backend, the integration of the "new event" page with the backend, added tests.
     - Jonh Wendell: Created the database table
     - Andras Ferenczy: Making the backend work at the host machine
     - Kathryn Zhu: Study for database connection
@@ -246,7 +246,7 @@
   
   ### Day July 7, 2022
     #### Tasks done in past 24 hours
-    - Ioannis Kapolos: 
+    - Ioannis Kapolos: Created the new event page, its form and handling of the submission. Added tests.
     - Jonh Wendell: Fixed CI tests on GitHub; Helped finish the backend tasks.
     - Andras Ferenczy: Succesfully connected the database with the frontend
     - Kathryn Zhu continue finish Handle POST request so that the event gets stored in the database TRI-54

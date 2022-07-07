@@ -228,13 +228,13 @@
   ### Day July 6, 2022
     #### Tasks done in past 24 hours:
     - Ioannis Kapolos: 
-    - Jonh Wendell:
-    - Andras Ferenczy: 
+    - Jonh Wendell: Created the database table
+    - Andras Ferenczy: Making the backend work at the host machine
     - Kathryn Zhu: Study for database connection
     #### Tasks going to do in next 24 hours:
     - Ioannis Kapolos: Front-end UI creation and API integration TRI-53
-    - Jonh Wendell: 
-    - Andras Ferenczy: 
+    - Jonh Wendell: Working on getting CI issues fixed
+    - Andras Ferenczy: Connect the database with the frontend TRI-51
     - Kathryn Zhu: Finish Handle POST request so that the event gets stored in the database TRI-54
     #### Impediment
     - All of teamates have no idea how to work with database
@@ -247,8 +247,8 @@
   ### Day July 7, 2022
     #### Tasks done in past 24 hours
     - Ioannis Kapolos: 
-    - Jonh Wendell: 
-    - Andras Ferenczy: 
+    - Jonh Wendell: Fixed CI tests on GitHub; Helped finish the backend tasks.
+    - Andras Ferenczy: Succesfully connected the database with the frontend
     - Kathryn Zhu continue finish Handle POST request so that the event gets stored in the database TRI-54
     #### Tasks going to do in next 24 hours
     - plan for the next sprint

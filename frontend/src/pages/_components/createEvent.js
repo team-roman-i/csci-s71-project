@@ -46,7 +46,7 @@ export default function CreateEvent() {
                         message: 'Please input the event title!',
                     },
                 ]}>
-                    <Input placeholder='The event title'/>
+                    <Input placeholder='The event title' data-testid='title'/>
                 </Form.Item>
                 <Form.Item label='Description' name='description' rules={[
                     {
@@ -54,13 +54,13 @@ export default function CreateEvent() {
                         message: 'Please enter the event description!',
                     },
                 ]}>
-                    <TextArea placeholder='The event description'/>
+                    <TextArea placeholder='The event description' data-testid='description'/>
                 </Form.Item>
                 <Form.Item label='Event Date' name='date'>
-                    <DatePicker/>
+                    <DatePicker data-testid='datePicker'/>
                 </Form.Item>
                 <Form.Item>
-                    <Button type='primary' htmlType='submit'>Submit</Button>
+                    <Button type='primary' htmlType='submit' data-testid='button'>Submit</Button>
                 </Form.Item>
             </Form>
         </div>

@@ -19,6 +19,9 @@ Object.defineProperty(window, 'matchMedia', {
 
 import '@testing-library/jest-dom';
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
+import useAxios from 'axios-hooks'
+
+jest.mock('axios-hooks')
 
 import Homepage from '../pages'
 import NewEventPage from '../pages/newEvent'
@@ -29,6 +32,11 @@ describe('app tests', () => {
     })
 
     beforeEach(() => {
+        useAxios.mockReturnValue([
+            {
+                data: []
+            }
+        ]);
     })
 
     it('renders the Homepage without crashing', async () => {
@@ -49,7 +57,7 @@ describe('app tests', () => {
         })
     });
 
-    it.skip('renders the description paragraphs', async () => {
+    it('renders the description paragraphs', async () => {
         const { container } = render(<Homepage />);
 
         await waitFor(() => {
@@ -61,7 +69,7 @@ describe('app tests', () => {
         })
     });
 
-    it.skip('renders the homepage embedded events', async () => {
+    it('renders the homepage embedded events', async () => {
         const { container } = render(<Homepage />);
 
         await waitFor(() => {
@@ -70,7 +78,32 @@ describe('app tests', () => {
         })
     });
 
-    it.skip('renders a sample event in its entirety', async () => {
+    it('renders a sample event in its entirety', async () => {
+        useAxios.mockReturnValue([
+            {
+                data: [
+                    {
+                        id: 1,
+                        title: 'Worship band for Sunday night service',
+                        date: 'Sunday, July 3rd 5pm.',
+                        description: 'List of people called to serve on the band.'
+                    },
+                    {
+                        id: 2,
+                        title: 'Bible study at Jonh\'s house',
+                        date: 'Tuesday, July 5th 7pm.',
+                        description: 'We are going to meet at Jonh\'s house this Tuesday to have a Bible study led by our pastor Roberto. After the study we will have our traditional tea time! Let us know you are coming so we can plan accordingly.'
+                    },
+                    {
+                        id: 3,
+                        title: 'Summer camp',
+                        date: 'Friday, July 8th.',
+                        description: 'We are going to have out annual summer camp starting this Friday. Please, confirm you are coming with us!'
+                    }
+                ]
+            }
+        ]);
+
         const { container } = render(<Homepage />);
 
         await waitFor(() => {
@@ -90,6 +123,46 @@ describe('app tests', () => {
 
         await waitFor(() => {
             expect(screen.queryByTestId('page_newEvent')).not.toBeEmptyDOMElement()
+        })
+    });
+
+    it('The Create New Event form contains a title field', async () => {
+        const { container } = render(<NewEventPage />);
+
+        await waitFor(() => {
+            expect(screen.queryByTestId('title')).toBeInTheDocument()
+        })
+    });
+
+    it('The Create New Event form contains a title field', async () => {
+        const { container } = render(<NewEventPage />);
+
+        await waitFor(() => {
+            expect(screen.queryByTestId('title')).toBeInTheDocument()
+        })
+    });
+
+    it('The Create New Event form contains a description textarea', async () => {
+        const { container } = render(<NewEventPage />);
+
+        await waitFor(() => {
+            expect(screen.queryByTestId('description')).toBeInTheDocument()
+        })
+    });
+
+    it('The Create New Event form contains a date picker', async () => {
+        const { container } = render(<NewEventPage />);
+
+        await waitFor(() => {
+            expect(screen.queryByTestId('datePicker')).toBeInTheDocument()
+        })
+    });
+
+    it('The Create New Event form contains a submission button', async () => {
+        const { container } = render(<NewEventPage />);
+
+        await waitFor(() => {
+            expect(screen.queryByTestId('button')).toBeInTheDocument()
         })
     });
 

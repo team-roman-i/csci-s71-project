@@ -278,6 +278,8 @@
   ### Sprint Retrospective
   - Discuss of the positive side and sides that need to be imporve
   - Focus on "Focus", "effiency" in the future
+  - https://faharvard.atlassian.net/browse/TRI-57
+
 
    ### Sprint Review
   - Building a working software of RSVP for church, by doing a web development

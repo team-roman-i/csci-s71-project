@@ -276,7 +276,8 @@
     - <img width="1508" alt="Screen Shot 2022-07-07 at 2 17 12 PM" src="https://user-images.githubusercontent.com/100321208/177842323-c6ef7657-de9b-4b4b-a0ee-627c8ee13d01.png">
     
   ### Sprint Retrospective
-
+  - Discuss of the positive side and sides that need to be imporve
+  - Focus on "Focus", "effiency" in the future
 
    ### Sprint Review
   - Building a working software of RSVP for church, by doing a web development
